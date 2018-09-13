@@ -1,0 +1,16 @@
+.admin-wrap{
+  width: 500px;
+  line-height: 1.2rem;
+  .item{
+    margin-top: 10px;
+    display: flex;
+    height: 40px;
+    line-height: 40px;
+    span{
+      width: 100px;
+    }
+  }
+.btn{
+    margin: 30px 80px;
+  }
+}

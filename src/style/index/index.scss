@@ -1,0 +1,38 @@
+.wrap-tap{
+  .nav-tab{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 200px;
+    padding-top: 50px;
+    background-color: #2d3a4b;
+  }
+  .top-tab{
+    position: fixed;
+    top: 0;
+    left: 200px;
+    right: 0;
+    height: 50px;
+    line-height: 1rem;
+    border-bottom: 1px solid #2d3a4b;
+    text-align: center;
+    color: #fff;
+    background-color: #2d3a4b;
+    z-index: 999;
+    .login-layla{
+     position: absolute;
+      top: 0;
+      right: 20px;
+      z-index: 1000;
+    }
+  }
+  .content{
+    position: absolute;
+    top: 50px;
+    left: 200px;
+    padding: 20px;
+    width: 80%;
+  }
+}
